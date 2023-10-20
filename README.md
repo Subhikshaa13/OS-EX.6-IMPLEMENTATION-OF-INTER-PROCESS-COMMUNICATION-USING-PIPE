@@ -37,6 +37,8 @@ else
 
 { close(fd[1]); read(fd[0],a,5); printf("The string received from pipe is : %s",a); 
 
+return 0; }
+
 
 OUTPUT:
 
